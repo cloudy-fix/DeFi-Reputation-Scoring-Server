@@ -1,0 +1,100 @@
+﻿{
+    "visibility":  "Public",
+    "sample":  {
+                   "wallet":  "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe"
+               },
+    "endpoints":  [
+                      {
+                          "method":  "GET",
+                          "path":  "/health",
+                          "purpose":  "Service health check"
+                      },
+                      {
+                          "method":  "GET",
+                          "path":  "/stats",
+                          "purpose":  "Scoring service statistics"
+                      },
+                      {
+                          "method":  "POST",
+                          "path":  "/score",
+                          "purpose":  "Submit wallet event for scoring"
+                      }
+                  ],
+    "category":  "DeFi Backend Microservice",
+    "accent":  "#059669",
+    "runtime":  "GitHub Pages runs the stream simulator. The repo contains FastAPI, Docker, and Kafka-oriented source for actual service deployment.",
+    "docs":  [
+                 {
+                     "label":  "Repository",
+                     "url":  "https://github.com/cloudy-fix/DeFi-Reputation-Scoring-Server",
+                     "note":  "Source, commits, issues, and project files"
+                 },
+                 {
+                     "label":  "Architecture",
+                     "url":  "https://github.com/cloudy-fix/DeFi-Reputation-Scoring-Server/blob/main/docs/ARCHITECTURE.md",
+                     "note":  "System design and responsibilities"
+                 },
+                 {
+                     "label":  "Operations",
+                     "url":  "https://github.com/cloudy-fix/DeFi-Reputation-Scoring-Server/blob/main/docs/OPERATIONS.md",
+                     "note":  "Runbook and deployment notes"
+                 },
+                 {
+                     "label":  "Workflow Diagram",
+                     "url":  "https://github.com/cloudy-fix/DeFi-Reputation-Scoring-Server/blob/main/docs/diagrams/workflow.mmd",
+                     "note":  "End-to-end process map"
+                 },
+                 {
+                     "label":  "Architecture Diagram",
+                     "url":  "https://github.com/cloudy-fix/DeFi-Reputation-Scoring-Server/blob/main/docs/diagrams/architecture.mmd",
+                     "note":  "Component-level diagram"
+                 }
+             ],
+    "repo":  "DeFi-Reputation-Scoring-Server",
+    "links":  {
+                  "pages":  "https://cloudy-fix.github.io/DeFi-Reputation-Scoring-Server/",
+                  "portfolio":  "https://cloudy-fix.github.io/portfolio/projects.html",
+                  "repo":  "https://github.com/cloudy-fix/DeFi-Reputation-Scoring-Server"
+              },
+    "stack":  [
+                  "FastAPI",
+                  "Python",
+                  "Kafka",
+                  "Docker",
+                  "AI Scoring",
+                  "Microservice"
+              ],
+    "metrics":  [
+                    {
+                        "label":  "Runtime",
+                        "detail":  "Health and statistics endpoints",
+                        "value":  "FastAPI service"
+                    },
+                    {
+                        "label":  "Stream",
+                        "detail":  "Process wallet events",
+                        "value":  "Kafka-ready"
+                    },
+                    {
+                        "label":  "Deploy",
+                        "detail":  "Containerized service",
+                        "value":  "Docker"
+                    }
+                ],
+    "accentTwo":  "#7c3aed",
+    "highlights":  [
+                       "Processes wallet events as a service",
+                       "Produces reputation scores",
+                       "Shows scalable backend architecture"
+                   ],
+    "components":  [
+                       "FastAPI app",
+                       "Kafka consumer",
+                       "Scoring model",
+                       "Result publisher",
+                       "Docker image"
+                   ],
+    "demoType":  "defi-server",
+    "mission":  "A production-ready AI microservice concept for calculating wallet reputation scores from DeFi transaction events in a Kafka-oriented pipeline.",
+    "title":  "DeFi Reputation Scoring Server"
+}
