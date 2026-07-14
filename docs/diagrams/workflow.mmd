@@ -1,0 +1,6 @@
+﻿flowchart TD
+    S1["Receive wallet event"] --> S2["Validate payload"]
+    S2["Validate payload"] --> S3["Compute reputation score"]
+    S3["Compute reputation score"] --> S4["Publish success or failure event"]
+    S4["Publish success or failure event"] --> S5["Expose API health/result endpoints"]
+

@@ -1,0 +1,6 @@
+﻿flowchart LR
+    User["Wallet transaction events"] --> App["FastAPI service, Kafka service, AI scoring model"]
+    App --> Data["Kafka topics, transaction payloads, scoring features"]
+    App --> Output["Success/failure scoring events and API response"]
+    Data --> Output
+
